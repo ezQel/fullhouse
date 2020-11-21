@@ -1,0 +1,26 @@
+.unavailable {
+	text-align:center;
+}
+
+.sorry{
+	font-size:100px;
+}
+.abt{background:#F5F5F5; display:block;}
+.sory{
+	font-size:50px;
+}
+.footer {background:#F5F5F5; display:block;}
+.footer {color:#8C8989;}
+
+.footer a {color:#696969;}
+.jumbotron{
+background-image:url('/back.jpeg');
+
+}
+.col-md-3 :hover{
+transform:scale(1.01,1.01);
+}
+.col-md-6 :hover{
+transform:scale(1.006,1.006);
+
+}
