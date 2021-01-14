@@ -10,7 +10,6 @@ $dbname = "fullhouse";
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     echo 'error';
-	
 }
 $sql = "select propertyname,location,price_rate,propertypic,owner FROM property where category='apartments'";
 $result=mysqli_query($conn, $sql);
@@ -87,7 +86,8 @@ if(!isset($_COOKIE[$cookie_name])) {
     echo'<li  ><a href="Login.php">Login</a></li>';
 } else {
     echo '
-<li  ><a href="profile.php"><span class="glyphicon glyphicon-user"></span> Profile</a></li>';}
+<li  ><a href="profile.php"><span class="glyphicon glyphicon-user"></span> Profile</a></li>';
+}
 ?>
 <!--/conditional-->
 
@@ -142,8 +142,8 @@ if (mysqli_num_rows($result) > 0) {
 		
 	echo '<div class="col-sm-6 col-md-3">
 <a href="'.$row["propertypic"].'" class="thumbnail">
-<img src="'.$row["propertypic"].'"
-alt="Generic placeholder thumbnail">
+<img class="property" src="'.$row["propertypic"].'"
+alt="'.$row["propertyname"].'">
 </a>
 
 <table class="table ">
