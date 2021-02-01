@@ -6,15 +6,15 @@ Fullhouse is a real estate website that I built to familiarize myself with php a
 1. Copy the contents of the [database folder](/database) to your mysql data 
 
 ## screenshots
-1. ### Home page
+### 1. Home page
 ![Home page](screenshots/0.png)
-1. ### Home page with footer
+### 2. Home page with footer
 ![Home page](screenshots/1.png)
-1. ### Accomodation page
+### 3. Accomodation page
 ![Accomodation Page](screenshots/2.png)
-1. ### Log In page
+### 4. Log In page
 ![Log In page](screenshots/3.png)
-1. ### Create Account page
+### 5. Create Account page
 ![Sign Up page](screenshots/4.png)
-1. ### About & Feedback page
+### 6. About & Feedback page
 ![About page](screenshots/5.png)
